@@ -1,0 +1,19 @@
+.captchacon {
+    display: flex;
+    align-items: center;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+}
+
+.captchadiv {
+    width: 90%;
+    border: none;
+    letter-spacing: 20px;
+    font-weight: bold;
+}
+
+.captchainput {
+    width: 100%;
+    margin-top: 20px;
+    outline: none !important;
+}

@@ -1,0 +1,24 @@
+.deleteicons {
+    color: rgb(255, 21, 21);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.uploadlabel {
+    display: flex;
+    gap: 5px;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    color: #f4da47 !important;
+    align-items: center;
+    cursor: pointer;
+}
+
+.uploadfile {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 65px;
+    cursor: pointer;
+}

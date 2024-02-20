@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.maindiv {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexdiv {
+  width: 500px;
+  height: 550px;
+}
+
+.imgdiv {
+  height: 22%;
+  background-color: #f3cf00;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+}
+
+.img {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 30px;
+  border: 5px solid #f3cf00;
+  z-index: 111;
+}
+
+.contantdiv {
+  height: 78%;
+  width: 100%;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contant {
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.contanttxt {
+  padding: 20px;
+  overflow-wrap: break-word;
+}
+
+.detailcard {
+  display: flex;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.detailcard>p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.detailsmaindiv {
+  padding: 0px 20px;
+}
+
+.detailsmaindiv>div>p {
+  width: 100%;
+}
+
+.text {
+  text-align: center;
+  padding-top: 60px;
+  padding: 10px;
+}
+
+.text .name {
+  font-weight: 600;
+  font-size: large;
+  padding: 0;
+  margin: 5px;
+  padding-top: 35px !important;
+}
+
+.text .title {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+.ico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  align-items: center;
+  gap: 30px;
+}
+
+.savebtn {
+  border: none;
+  background-color: transparent;
+  color: #4cd3aa;
+  padding: 0;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.savebtn img {
+  height: 27px !important;
+  width: 30px !important;
+}
+
+.usertitle {
+  font-weight: 500;
+}
+
+@media (max-width: 500px) {
+  .flexdiv {
+    width: 320px;
+    height: 650px;
+  }
+
+  .imgdiv {
+    height: 23%;
+  }
+
+  .img {
+    height: 170px;
+    width: 170px;
+    top: 55px;
+    border-color: #fff;
+  }
+
+  .text .name {
+    padding-top: 50px !important;
+  }
+
+  .detailcard>p {
+    margin: 0;
+    font-size: 13px;
+  }
+
+  .usertitle {
+    width: 100px !important;
+  }
+
+  .detailsmaindiv {
+    padding: 0;
+  }
+
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .maindiv {
+    align-items: baseline;
+    padding-top: 20px;
+  }
+
+  .contant {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .text .title {
+    font-size: 12px;
+  }
+
+  .btndiv {
+    bottom: 0;
+  }
+
+  .emailtxt {
+    width: 60% !important;
+  }
+}
+
+.bi {
+  color: #f3cf00;
+}
+
+.maindiv {
+  position: relative;
+}
+
+.btndiv {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.btndiv button {
+  padding: 10px;
+  background-color: #f3cf00;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  outline: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.options {
+  width: 185px;
+  display: flex;
+  gap: 10px;
+  background-color: #f3cf00;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}

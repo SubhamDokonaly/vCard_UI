@@ -1,0 +1,36 @@
+#icons {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+#icons img {
+  width: 80%;
+  height: 90%;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+#optionbtndiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#icons > a {
+  background-color: #ededed !important;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 500px) {
+  #icons {
+    padding-top: 0px;
+  }
+}

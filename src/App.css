@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+
+:root {
+  font-family: Rubik, sans-serif !important;
+  font-size: 16px;
+  line-height: 24px;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background: #fff;
+}
+
+
+.error,
+.errormsg {
+  color: red;
+  margin: 0;
+}
+
+.MuiDrawer-paper {
+  width: 450px;
+}
+
+.MuiDataGrid-root {
+  background: #fff !important;
+  border-radius: 5px !important;
+}
+
+.MuiDataGrid-columnHeaderTitleContainer:focus {
+  outline: none !important;
+  border-color: #fff !important;
+}
+
+.MuiIconButton-sizeSmall,
+.MuiDataGrid-iconSeparator {
+  display: none !important;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+  font-weight: bold !important;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #858585 !important;
+  letter-spacing: 0.13em;
+}
+
+.MuiDataGrid-cellContent {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000 !important;
+}
+
+.MuiDataGrid-cell:focus,
+.MuiDataGrid-columnHeader:focus {
+  outline: none !important;
+}
+
+.togglebtn > .Mui-selected {
+	background: #000 !important;
+	color: #fff !important;
+	border-radius: 5px !important;
+}
